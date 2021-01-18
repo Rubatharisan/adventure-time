@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T10:44:20.322Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.2.4" etag="2A6j93VYamoMHTtSU7_9" type="github"><diagram id="mQuOVDzupG6-awZ-pB9h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-18T17:38:15.550Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="wOYKUsqrVrD606QOYhzq" version="14.2.4" type="github">
+  <diagram id="mQuOVDzupG6-awZ-pB9h" name="Page-1">
+    <mxGraphModel dx="786" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1aIFwLi22QDupIKzZCro-10" value="Message Broker" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="319" y="120" width="161" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1aIFwLi22QDupIKzZCro-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="1aIFwLi22QDupIKzZCro-2" target="1aIFwLi22QDupIKzZCro-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aIFwLi22QDupIKzZCro-6" value="Listens on queue" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1aIFwLi22QDupIKzZCro-5">
+          <mxGeometry x="0.4475" y="1" relative="1" as="geometry">
+            <mxPoint x="-20" y="0.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aIFwLi22QDupIKzZCro-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="1aIFwLi22QDupIKzZCro-2" target="1aIFwLi22QDupIKzZCro-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="359" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aIFwLi22QDupIKzZCro-9" value="Sends to queue" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1aIFwLi22QDupIKzZCro-8">
+          <mxGeometry x="0.3254" y="3" relative="1" as="geometry">
+            <mxPoint x="-13" y="2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aIFwLi22QDupIKzZCro-2" value="management_service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1aIFwLi22QDupIKzZCro-4" value="management_service" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.queue_viewer;" vertex="1" parent="1">
+          <mxGeometry x="370" y="160" width="59" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="1aIFwLi22QDupIKzZCro-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="1aIFwLi22QDupIKzZCro-7" target="1aIFwLi22QDupIKzZCro-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1aIFwLi22QDupIKzZCro-13" value="Listens on queue" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1aIFwLi22QDupIKzZCro-12">
+          <mxGeometry x="0.1563" y="-1" relative="1" as="geometry">
+            <mxPoint x="-37" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aIFwLi22QDupIKzZCro-7" value="customer_service" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.queue_viewer;" vertex="1" parent="1">
+          <mxGeometry x="370" y="330" width="59" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="1aIFwLi22QDupIKzZCro-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="1aIFwLi22QDupIKzZCro-11" target="1aIFwLi22QDupIKzZCro-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aIFwLi22QDupIKzZCro-15" value="Replies to queue" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1aIFwLi22QDupIKzZCro-14">
+          <mxGeometry x="0.3626" y="-2" relative="1" as="geometry">
+            <mxPoint x="13" y="1.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1aIFwLi22QDupIKzZCro-11" value="customer_service" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="230" width="140" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
